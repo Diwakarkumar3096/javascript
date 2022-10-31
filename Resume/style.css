@@ -1,0 +1,56 @@
+*{
+    margin: 0px;;
+}
+body{
+    margin: 0px;
+    margin: 0px;
+}
+
+#body-header{
+    height:60vh;
+    background-image: url('./macbook.jpg');
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    
+    
+}
+.horizontal-list li{
+    margin: 0px 10px 10px 0px;
+
+    display:inline-block;
+    font-size: 30px;
+}
+.horizontal-list li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.2 border-bottom 4s;
+}
+.text-center{
+    text-align: center;
+}
+.horizontal-list li a:hover{
+    border-bottom: 2px solid rgb(196, 221, 221);;
+    color: rgb(196, 221, 221);
+    
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icon li a i{
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius:50%;
+}
