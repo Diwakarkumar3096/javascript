@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>Hello javascript</h1>
+    <h3>Enter your choice</h3>
+    <ul>
+        <li>Add</li>
+        <li>SUB</li>
+        <li>MUL</li>
+    </ul>
+    <br>
+    <form action="">
+        <input type="text" id="choices">
+        <br>
+        <button onclick="myfun()">Click Me</button>
+    </form>
+
+    <script type="text/javascript">
+        
+        function myfun(){
+            var choice = document.getElementById("choices").value;
+            //alert(choice);
+            switch(choice){
+                case"Add" : var a=10;
+                var b=20;
+                var c=a+b;
+                alert(c);
+                break;
+                case"SUB":var a=30;
+                var b=10;
+                var c=a-b;
+                alert(c);
+                break;
+
+                case"MUL":var a=30;
+                var b=10;
+                var c=a*b;
+                alert(c);
+                break;
+
+                default :alert("Not a valid Input");
+            }
+        }
+
+    </script>
+</body>
